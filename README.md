@@ -1,8 +1,6 @@
 # algs_bigdata_interview
 算法 大数据 面试 准备
 
-
-
 part 1
 
 **简历上的知识点准备**
@@ -12,7 +10,6 @@ part 1
 **算法原理**
 
 **项目经验**
-
 
 
 part2
@@ -26,8 +23,6 @@ part2
 **k8s**
 
 **flink**
-
-
 
 
 
