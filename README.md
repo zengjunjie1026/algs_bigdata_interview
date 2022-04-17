@@ -16,6 +16,11 @@ spark计算
 azkaban计算
 clickhouse
 tableau
+git
+cicd
+docker
+k8s
+linux/shell
 
 
 **数据结构与算法**
