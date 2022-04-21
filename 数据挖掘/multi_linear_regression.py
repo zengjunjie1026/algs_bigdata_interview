@@ -39,3 +39,27 @@ print(X[:10])
 
 
 #
+X1 = X[: , 1:]
+
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0)
+X1_train, X1_test, Y1_train, Y1_test = train_test_split(X1, Y, test_size = 0.2, random_state = 0)
+print(X_test)
+print(Y_test)
+print(X1_test)
+print(Y1_test)
+
+
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, Y_train)
+regressor1 = LinearRegression()
+regressor1.fit(X1_train, Y1_train)
+
+
+y_pred = regressor.predict(X_test)
+y1_pred = regressor1.predict(X1_test)
+
+print(y_pred)
+print(y1_pred)
